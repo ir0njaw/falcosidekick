@@ -14,8 +14,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/falcosecurity/falcosidekick/outputs"
-	"github.com/falcosecurity/falcosidekick/types"
+	"github.com/ir0njaw/falcosidekick/outputs"
+	"github.com/ir0njaw/falcosidekick/types"
 )
 
 // Globale variables
