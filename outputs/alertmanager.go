@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/falcosecurity/falcosidekick/types"
+	"github.com/ir0njaw/falcosidekick/types"
 )
 
 type alertmanagerPayload struct {
