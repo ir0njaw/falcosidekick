@@ -71,10 +71,10 @@ func (c *Client) LokiPost(falcopayload types.FalcoPayload) {
 		defer c.httpClientLock.Unlock()
 		c.AddHeader("X-Scope-OrgID", c.Config.Loki.Tenant)
 	}
-	if c.Config.Loki.Header != "" {
+	if c.Config.Loki.CustomHeaders != "" {
 		c.httpClientLock.Lock()
 		defer c.httpClientLock.Unlock()
-		c.AddHeader("Test", c.Config.Loki.Header)
+		c.AddHeader("Test", c.Config.Loki.CustomHeaders)
 	}
 
 	if c.Config.Loki.User != "" && c.Config.Loki.APIKey != "" {
