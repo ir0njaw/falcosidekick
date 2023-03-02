@@ -8,7 +8,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/falcosecurity/falcosidekick/types"
+	"github.com/ir0njaw/falcosidekick/types"
 )
 
 func getInitPromStats(config *types.Configuration) *types.PromStatistics {
