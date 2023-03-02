@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/falcosecurity/falcosidekick/types"
+	"github.com/ir0njaw/falcosidekick/types"
 )
 
 // Cliq API reference: https://www.zoho.com/cliq/help/restapi/v2/

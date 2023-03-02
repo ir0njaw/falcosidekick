@@ -3,7 +3,7 @@ package outputs
 import (
 	"log"
 
-	"github.com/falcosecurity/falcosidekick/types"
+	"github.com/ir0njaw/falcosidekick/types"
 )
 
 // WebhookPost posts event to an URL

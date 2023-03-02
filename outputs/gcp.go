@@ -19,7 +19,7 @@ import (
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/option"
 
-	"github.com/falcosecurity/falcosidekick/types"
+	"github.com/ir0njaw/falcosidekick/types"
 )
 
 // NewGCPClient returns a new output.Client for accessing the GCP API.

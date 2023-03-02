@@ -7,7 +7,7 @@ import (
 
 	"github.com/PagerDuty/go-pagerduty"
 
-	"github.com/falcosecurity/falcosidekick/types"
+	"github.com/ir0njaw/falcosidekick/types"
 )
 
 // PagerdutyPost posts alert event to Pagerduty

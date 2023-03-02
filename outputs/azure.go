@@ -9,7 +9,7 @@ import (
 	eventhub "github.com/Azure/azure-event-hubs-go/v3"
 	"github.com/DataDog/datadog-go/statsd"
 
-	"github.com/falcosecurity/falcosidekick/types"
+	"github.com/ir0njaw/falcosidekick/types"
 )
 
 // NewEventHubClient returns a new output.Client for accessing the Azure Event Hub.

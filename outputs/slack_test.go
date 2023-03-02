@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/falcosecurity/falcosidekick/types"
+	"github.com/ir0njaw/falcosidekick/types"
 )
 
 func TestNewSlackPayload(t *testing.T) {
@@ -20,7 +20,7 @@ func TestNewSlackPayload(t *testing.T) {
 				Fallback: "This is a test from falcosidekick",
 				Color:    PaleCyan,
 				Text:     "This is a test from falcosidekick",
-				Footer:   "https://github.com/falcosecurity/falcosidekick",
+				Footer:   "https://github.com/ir0njaw/falcosidekick",
 				Fields: []slackAttachmentField{
 					{
 						Title: "rule",

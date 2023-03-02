@@ -14,7 +14,7 @@ import (
 	sasl "github.com/emersion/go-sasl"
 	smtp "github.com/emersion/go-smtp"
 
-	"github.com/falcosecurity/falcosidekick/types"
+	"github.com/ir0njaw/falcosidekick/types"
 )
 
 const rfc2822 = "Mon Jan 02 15:04:05 -0700 2006"

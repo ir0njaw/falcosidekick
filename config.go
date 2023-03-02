@@ -42,7 +42,7 @@ func getConfig() *types.Configuration {
 	v.SetDefault("MutualTlsFilesPath", "/etc/certs")
 
 	v.SetDefault("Slack.WebhookURL", "")
-	v.SetDefault("Slack.Footer", "https://github.com/falcosecurity/falcosidekick")
+	v.SetDefault("Slack.Footer", "https://github.com/ir0njaw/falcosidekick")
 	v.SetDefault("Slack.Username", "Falcosidekick")
 	v.SetDefault("Slack.Channel", "")
 	v.SetDefault("Slack.Icon", "https://raw.githubusercontent.com/falcosecurity/falcosidekick/master/imgs/falcosidekick_color.png")
@@ -53,7 +53,7 @@ func getConfig() *types.Configuration {
 	v.SetDefault("Slack.CheckCert", true)
 
 	v.SetDefault("Rocketchat.WebhookURL", "")
-	v.SetDefault("Rocketchat.Footer", "https://github.com/falcosecurity/falcosidekick")
+	v.SetDefault("Rocketchat.Footer", "https://github.com/ir0njaw/falcosidekick")
 	v.SetDefault("Rocketchat.Username", "Falcosidekick")
 	v.SetDefault("Rocketchat.Icon", "https://raw.githubusercontent.com/falcosecurity/falcosidekick/master/imgs/falcosidekick_color.png")
 	v.SetDefault("Rocketchat.OutputFormat", "all")
@@ -63,7 +63,7 @@ func getConfig() *types.Configuration {
 	v.SetDefault("Rocketchat.CheckCert", true)
 
 	v.SetDefault("Mattermost.WebhookURL", "")
-	v.SetDefault("Mattermost.Footer", "https://github.com/falcosecurity/falcosidekick")
+	v.SetDefault("Mattermost.Footer", "https://github.com/ir0njaw/falcosidekick")
 	v.SetDefault("Mattermost.Username", "Falcosidekick")
 	v.SetDefault("Mattermost.Icon", "https://raw.githubusercontent.com/falcosecurity/falcosidekick/master/imgs/falcosidekick_color.png")
 	v.SetDefault("Mattermost.OutputFormat", "all")

@@ -10,7 +10,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/falcosecurity/falcosidekick/types"
+	"github.com/ir0njaw/falcosidekick/types"
 	"github.com/google/uuid"
 )
 

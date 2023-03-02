@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/DataDog/datadog-go/statsd"
-	"github.com/falcosecurity/falcosidekick/types"
+	"github.com/ir0njaw/falcosidekick/types"
 
 	wavefront "github.com/wavefronthq/wavefront-sdk-go/senders"
 )

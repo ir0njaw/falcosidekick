@@ -31,7 +31,7 @@ const (
 	Markdown  string = "markdown"
 	Hostname  string = "hostname"
 
-	DefaultFooter  string = "https://github.com/falcosecurity/falcosidekick"
+	DefaultFooter  string = "https://github.com/ir0njaw/falcosidekick"
 	DefaultIconURL string = "https://raw.githubusercontent.com/falcosecurity/falcosidekick/master/imgs/falcosidekick.png"
 
 	// Colors

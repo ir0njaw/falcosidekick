@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/falcosecurity/falcosidekick/types"
+	"github.com/ir0njaw/falcosidekick/types"
 )
 
 // ElasticsearchPost posts event to Elasticsearch

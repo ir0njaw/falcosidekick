@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/falcosecurity/falcosidekick/types"
+	"github.com/ir0njaw/falcosidekick/types"
 )
 
 type header struct {
