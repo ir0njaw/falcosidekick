@@ -232,6 +232,7 @@ type influxdbOutputConfig struct {
 
 type lokiOutputConfig struct {
 	HostPort        string
+	CustomHeaders   map[string]string
 	User            string
 	APIKey          string
 	MinimumPriority string
