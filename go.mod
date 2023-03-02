@@ -1,4 +1,4 @@
-module github.com/falcosecurity/falcosidekick
+module github.com/ir0njaw/falcosidekick
 
 go 1.18
 
