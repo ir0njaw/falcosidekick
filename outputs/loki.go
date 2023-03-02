@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/ir0n/falcosidekick/types"
+	"github.com/falcosecurity/falcosidekick/types"
 )
 
 type lokiPayload struct {
