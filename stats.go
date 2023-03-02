@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/falcosecurity/falcosidekick/outputs"
-	"github.com/falcosecurity/falcosidekick/types"
+	"github.com/ir0njaw/falcosidekick/outputs"
+	"github.com/ir0njaw/falcosidekick/types"
 )
 
 func getInitStats() *types.Statistics {
