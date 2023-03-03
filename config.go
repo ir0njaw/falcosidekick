@@ -127,7 +127,7 @@ func getConfig() *types.Configuration {
 	v.SetDefault("Loki.MutualTLS", false)
 	v.SetDefault("Loki.CheckCert", true)
 	v.SetDefault("Loki.Tenant", "")
-	v.SetDefault("Loki.customHeader", "test: test")
+	v.SetDefault("Loki.CustomHeaders", "test: test")
 	v.SetDefault("Loki.Endpoint", "/loki/api/v1/push")
 	v.SetDefault("Loki.ExtraLabels", "")
 
